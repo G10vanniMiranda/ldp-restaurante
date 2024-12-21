@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+    padding: 28px 8%;
+}
+
+#navBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navLogo{
+    font-size: 24px;
+    color: #e9a209;
+}
+
+#navList{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #1d1d1dad;
+}
+
+.nav-item.active a{
+    color: #1d1d1d;
+    border-bottom: 3px solid #ffe100;
+}
+
+#mobileBtn{
+    display: none;
+}
+
+#mobileMenu{
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #navList,
+    #navBar .btn-default{
+        display: none;
+    }
+
+    #mobileBtn{
+        display: block;
+    }
+}
