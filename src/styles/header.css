@@ -1,6 +1,10 @@
 header{
     width: 100%;
     padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-primary-1);
+    z-index: 3;
 }
 
 #navBar{
@@ -24,6 +28,7 @@ header{
 .nav-item a{
     text-decoration: none;
     color: #1d1d1dad;
+    font-weight: 600;
 }
 
 .nav-item.active a{
@@ -63,7 +68,7 @@ header{
         display: flex;
         flex-direction: column;
         gap: 12px;
-        margin: 12px 0;
+        margin: 12px 0px;
     }
 
     #mobileNavList .nav-item{
