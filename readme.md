@@ -1,3 +1,5 @@
 ### Screens
 
-<img src="./restaurante.png" alt="" >
+<img src="[def]" alt="" >
+
+[def]: /restaurante.pn
