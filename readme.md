@@ -1,3 +1,3 @@
 ### Screens
 
-<img src="./restaurante.png" alt="" >
+<img src="./screens/restaurante.png" alt="" >
