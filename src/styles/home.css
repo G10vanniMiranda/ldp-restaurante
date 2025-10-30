@@ -46,7 +46,7 @@
     border-radius: 12px;
 }
 
-#phoneButton button{
+#phoneButton .icon-btn{
     box-shadow: none;
 }
 
@@ -95,7 +95,7 @@
 }
 
 @media screen and (max-width: 450px){
-    #phoneButton button{
+    #phoneButton .icon-btn{
         display: none;
     }
 }

@@ -54,6 +54,12 @@ section{
     background-color: var(--color-primary-3);
 }
 
+.btn-default:focus-visible,
+a:focus-visible{
+    outline: 3px solid var(--color-primary-4);
+    outline-offset: 2px;
+}
+
 .social-media-buttons{
     display: flex;
     gap: 18px;
@@ -85,4 +91,27 @@ section{
 
 .section-subtitle{
     font-size: 2.1875rem;
+}
+
+/* Skip to content link for accessibility */
+.skip-link{
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-link:focus{
+    left: 8%;
+    top: 8px;
+    width: auto;
+    height: auto;
+    padding: 10px 14px;
+    background: var(--color-neutral-0);
+    color: var(--color-neutral-1);
+    border-radius: 8px;
+    box-shadow: 0 0 0 3px var(--color-primary-4);
+    z-index: 9999;
 }

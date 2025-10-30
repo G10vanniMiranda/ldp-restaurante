@@ -27,7 +27,7 @@ header{
 
 .nav-item a{
     text-decoration: none;
-    color: var(--color-neutral-1)ad;
+    color: var(--color-neutral-1);
     font-weight: 600;
 }
 
@@ -75,4 +75,9 @@ header{
         list-style: none;
         text-align: center;
     }
+}
+
+/* Subtle shadow when page is scrolled */
+header.scrolled{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
 }
